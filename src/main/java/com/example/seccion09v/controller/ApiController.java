@@ -13,4 +13,9 @@ public class ApiController {
         return "HOLA";
     }
 
+    @GetMapping("/despedida")
+    public String chao(){
+        return "CHAO";
+    }
+
 }
